@@ -1,0 +1,20 @@
+
+:root{
+    --primary-color: rgb(0,177,79);
+    --text-color: rgb(94,98,100);
+    --heading-color: rgb(94,98,100);
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    
+    font-size: 62.5%;
+    line-height: 2rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+}
