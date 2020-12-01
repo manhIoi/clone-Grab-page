@@ -4,6 +4,10 @@
     height: 70px;
     /* background-color: var(--primary-color); */
     background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .header__navbar{
     margin: auto;
@@ -48,6 +52,9 @@
     font-size: 3rem;
 }
 /* body */
+.container{
+    margin-top: var(--height-header);
+}
 .covid{
     padding: 20px 0;
 }

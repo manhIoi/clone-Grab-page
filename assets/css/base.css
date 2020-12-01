@@ -4,6 +4,7 @@
     --text-color: #363a45;
     --heading-color: rgb(94,98,100);
     --white-color:sologan__content;
+    --height-header: 70px;
 }
 *{
     box-sizing: inherit;
