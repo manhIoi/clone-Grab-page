@@ -2,7 +2,8 @@
 /* header */
 .header{
     height: 70px;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: white;
 }
 .header__navbar{
     margin: auto;
@@ -19,22 +20,25 @@
 .header__navbar-content.navbar__item-menu{
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
+    margin: 0px 33px;
+    position: relative;
 }
 .navbar__item-logo-img{
-    width: 90px;
-    height: 45px;
+    max-width: 100px;
+    max-height: 100%    ; 
+    background-size: auto;
 }
 .header__navbar-item{
     display: flex;
     text-align: center;
     align-items: center;
     flex: 1;
+    position: relative;
 }
 .header__navbar-content{
     display: block;
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 20px;
 }
 .navbar__item-menu-title{
@@ -42,4 +46,68 @@
 }
 .navbar__item-menu-icon{
     font-size: 3rem;
+}
+/* body */
+.covid{
+    padding: 20px 0;
+}
+.covid-info{
+    font-size: 2.4rem;
+    color: white;
+    text-decoration: none;
+}
+.container{
+    background-color: var(--primary-color);
+}
+.sologan__content{
+    text-align: left;
+    font-size: 7.5rem;
+    line-height: 8rem;
+    color: white;
+    padding: 60px 0;
+}
+
+.conduct__contain{
+    display: flex;
+    color: white;
+}
+.conduct__contain-title{
+    flex: 1;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 0;
+}
+.conduct__contain-content{
+    flex: 1;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.conduct__contain-content-text{
+    margin: 0;
+}
+.conduct__contain-content-link{
+    padding: 30px 0;
+    text-decoration: none;
+    color: white;
+}
+.conduct__selection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.conduct__option{
+    margin: 0 40px 60px 0;
+}
+.conduct__selection-content{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.conduct__selection-img{
+    width: 60px;
+    height: 60px;
+    /* margin: 0 20px 40px 0; */
+    margin: 20px;
 }
