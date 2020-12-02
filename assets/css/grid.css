@@ -294,12 +294,12 @@
         
     }
     .wide .row.sm-gutter{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: -8px;
+        margin-right: -8px;
     }
     .wide .row.sm-gutter .col{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .wide .l-1,
     .wide .l-2,
