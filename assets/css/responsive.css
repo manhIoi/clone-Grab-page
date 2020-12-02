@@ -1,3 +1,8 @@
+@media (max-width: 1112px){
+    .container{
+        padding: 10px;
+    }
+}
 @media (min-width: 740px) and  (max-width: 1112px){
     .header__navbar-list{
         flex-direction: column;
@@ -16,6 +21,11 @@
         line-height: 4.4rem;
         transition: all ease-in-out 1s;
     }
+    .service__title{
+        font-size: 4rem;
+        line-height: 4.4rem;
+        transition: all ease-in-out 1s;
+    }
 }
 @media (max-width: 739px){
     .hide-on-mobile{
@@ -25,6 +35,11 @@
         font-size: 1.6rem;
     }
     .sologan__content{
+        font-size: 3rem;
+        line-height: 3.2rem;
+        transition: all ease-in-out 1s;
+    }
+    .service__title{
         font-size: 3rem;
         line-height: 3.2rem;
         transition: all ease-in-out 1s;
