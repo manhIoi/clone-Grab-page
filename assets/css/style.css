@@ -3,11 +3,12 @@
 .header{
     height: 70px;
     /* background-color: var(--primary-color); */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
 .header__navbar{
     margin: auto;
@@ -38,6 +39,8 @@
     align-items: center;
     flex: 1;
     position: relative;
+    height: var(--height-header);
+    background-color: white;
 }
 .header__navbar-content{
     display: block;
@@ -112,6 +115,9 @@
     text-decoration: none;
     color: white;
 }
+.conduct__contain-img{
+    width: 100%;
+}
 .conduct__selection-img{
     width: 60px;
     height: 60px;
@@ -128,12 +134,20 @@
 }
 .service__item{
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     border-radius: 2px;
     height: 500px;
 }
+
+
 .service__img{
     width: 100%;
+    transform: scale(1,1);
+    transition: all ease-in-out 0.2s;
+}
+.service__item:hover .service__img{
+    transform: scale(1.2,1.2);
+    transition: all ease-in-out 0.2s;
 }
 .service__heading{
     margin: 0;

@@ -1,0 +1,32 @@
+@media (min-width: 740px) and  (max-width: 1112px){
+    .header__navbar-list{
+        flex-direction: column;
+    }
+    .header__navbar-item-right{
+        justify-content: flex-end;
+    }
+    .header{
+        height: 140px;
+    }
+    .covid-info{
+        font-size: 2rem;
+    }
+    .sologan__content{
+        font-size: 4rem;
+        line-height: 4.4rem;
+        transition: all ease-in-out 1s;
+    }
+}
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .covid-info{
+        font-size: 1.6rem;
+    }
+    .sologan__content{
+        font-size: 3rem;
+        line-height: 3.2rem;
+        transition: all ease-in-out 1s;
+    }
+}
