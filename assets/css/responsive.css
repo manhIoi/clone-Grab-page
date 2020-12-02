@@ -26,6 +26,9 @@
         line-height: 4.4rem;
         transition: all ease-in-out 1s;
     }
+    .dowload__apps-title{
+        font-size: 2rem;
+    }
 }
 @media (max-width: 739px){
     .hide-on-mobile{
@@ -44,4 +47,17 @@
         line-height: 3.2rem;
         transition: all ease-in-out 1s;
     }
+    .dowload__apps-title{
+        font-size: 2rem;
+    }
+    .dowload__apps-item{
+        width: 25%;
+        margin-right: 10px;
+        transition: all ease-in-out 1s;
+    }
+    .body__footer-title{
+        font-size: 3rem;
+        transition: all ease-in-out 1s;
+    }
+    
 }
