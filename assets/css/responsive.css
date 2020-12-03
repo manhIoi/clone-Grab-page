@@ -1,4 +1,7 @@
 @media (max-width: 1112px){
+    .hide-on-tablet-mobile{
+        display: none;
+    }
     .container{
         padding: 10px;
     }
@@ -28,6 +31,9 @@
     }
     .dowload__apps-title{
         font-size: 2rem;
+    }
+    .footer{
+        justify-content: space-around;
     }
 }
 @media (max-width: 739px){
@@ -59,5 +65,7 @@
         font-size: 3rem;
         transition: all ease-in-out 1s;
     }
-    
+    .footer{
+        flex-direction: column;
+    }
 }

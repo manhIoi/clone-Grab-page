@@ -81,6 +81,7 @@
 }
 
 @media (min-width: 740px){
+    
     .row{
         margin-left: -8px;
         margin-right: -8px;
@@ -167,7 +168,7 @@
     }
 }
 
-@media (min-width:1113px){
+@media (min-width:1113px){hide
     .row{
         margin-left: -12px;
         margin-right: -12px;
