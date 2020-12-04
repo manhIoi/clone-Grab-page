@@ -5,6 +5,9 @@
     .container{
         padding: 10px;
     }
+    .header__navbar-content.navbar__item-menu{
+        margin: 0 50px;
+    }
 }
 @media (min-width: 740px) and  (max-width: 1112px){
     .header__navbar-list{
@@ -35,6 +38,7 @@
     .footer{
         justify-content: space-around;
     }
+    
 }
 @media (max-width: 739px){
     .hide-on-mobile{
